@@ -1,6 +1,6 @@
 {
-  "name": "sqlcommenter-sequelize",
-  "version": "1.0.0",
+  "name": "sqlcommenter-sequelize2",
+  "version": "1.0.2",
   "description": "Middleware and wrappers to correlate SQL statements from Sequelize.js and Express.js",
   "main": "index.js",
   "directories": {
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "toriaezunama/sqlcommenter"
+    "url": "toriaezunama/sqlcommenter2"
   },
   "author": "Google, LLC.",
   "license": "Apache-2.0"
