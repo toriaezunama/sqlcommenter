@@ -1,5 +1,5 @@
 {
-  "name": "@google-cloud/sqlcommenter-sequelize",
+  "name": "sqlcommenter-sequelize",
   "version": "1.0.0",
   "description": "Middleware and wrappers to correlate SQL statements from Sequelize.js and Express.js",
   "main": "index.js",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "google/sqlcommenter"
+    "url": "toriaezunama/sqlcommenter"
   },
   "author": "Google, LLC.",
   "license": "Apache-2.0"
