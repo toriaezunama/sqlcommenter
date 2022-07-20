@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const {hasComment} = require('./util');
-const provider = require('./provider');
+// const provider = require('./provider');
 const hook = require('./hooks');
 
 const defaultFields = {
@@ -63,7 +63,7 @@ exports.wrapSequelize = (sequelize, include={}, options={}) => {
         }
 
         // Add trace context to comments, depending on the provider.
-        provider.attachComments(options.TraceProvider, comments);
+        //provider.attachComments(options.TraceProvider, comments);
     
         // Filter out keys whose values are undefined or aren't to be included by default.
         const filtering = typeof include === 'object' && include && Object.keys(include).length > 0; 
